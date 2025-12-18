@@ -1,0 +1,1021 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 50px;
+  background-color: white;
+  min-height: 100vh;
+  
+}
+
+.lancer{
+  color: rgb(0, 167, 142);
+}
+
+header{
+  display: flex;
+  justify-content:space-between;
+  margin-bottom:20px;
+  align-items: center;
+  background-color: white;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+header h2{
+  font-size: 25px;
+}
+
+
+main{
+  min-height: 500px;
+}
+
+
+li{
+ list-style: none;
+ display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+li a:hover{
+  color: rgb(0, 167, 142);
+}
+
+nav{
+  width: 400px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.bio-section{
+ display: flex;
+ justify-content: center;
+ min-height: 500px;
+ padding: 50px;
+ gap: 5rem;
+ background-color: rgb(249, 249, 249);
+ color: rgb(41, 54, 81);
+}
+
+.bio:first-child{
+  flex: 50;
+}
+
+.bio:last-child{
+  flex: 50;
+}
+
+.hello{
+  margin-bottom: 20px;
+  color: rgb(0, 167, 142);
+  font-size: 24px;
+  font-family: sans-serif;
+  letter-spacing: 0.4rem;
+}
+
+.name{
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(41, 54, 81);
+}
+
+p{
+  margin-bottom: 20px;
+  line-height: 1.3rem;
+}
+
+
+.hire-button{
+  background-color: rgb(0, 167, 142);
+  color: white;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.4s;
+  
+}
+
+
+.hire-button:hover{
+  opacity: 0.5;
+}
+.hire-button:active{
+  opacity: 1;
+}
+
+.image{
+  object-fit: cover;
+}
+
+.about-section{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  gap: 5rem;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.about-me{
+  color: rgb(0, 167, 142);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ui-container{
+  width: 500px;
+  height: 5px;
+  background-color: aliceblue;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.ux-container{
+  width: 10%;
+  height: 5px;
+  background-color: rgb(0, 167, 142);
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+
+.web-container{
+  width: 500px;
+  height: 5px;
+  background-color: aliceblue;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.web-content{
+  width: 10%;
+  height: 5px;
+  background-color: rgb(0, 167, 142);
+  border-radius: 6px;
+}
+
+
+.html-container{
+  width: 500px;
+  height: 5px;
+  background-color: aliceblue;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.css-container{
+  width: 90%;
+  height: 5px;
+  background-color: rgb(0, 167, 142);
+  border-radius: 6px;
+}
+
+.sketch-container{
+  width: 500px;
+  height: 5px;
+  background-color: aliceblue;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.sketch-content{
+  width: 5%;
+  height: 5px;
+  background-color: rgb(0, 167, 142);
+  border-radius: 6px;
+}
+
+.services{
+  text-align: center;
+  background-color: rgb(249, 249, 249);
+  padding: 20px;
+  font-size: 20px;
+}
+
+h3, h2, .line-container{
+  margin-bottom: 20px;
+}
+h3{
+  color: rgb(0, 167, 142);
+}
+h2{
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(41, 54, 81);
+}
+.line-container{
+  width: 70px;
+  height: 3px;
+  background-color: rgb(0, 167, 142);
+  margin: 0 auto;
+  border-radius: 2px;
+  margin-bottom: 50px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+
+  
+  background-color: rgb(249, 249, 249);
+}
+
+
+.content{
+  width: 350px;
+  height: 320px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  transition: 0.5s;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+.content p{
+  color: rgb(100, 111, 135);
+  width: 300px;
+}
+.content:hover{
+  background-color: rgb(0, 167, 142);;
+}
+
+.green-background{
+  background-color: rgb(0, 167, 142);
+  height: 500px; 
+  width: 400px;
+  transform: skewY(100px);
+}
+
+.bio img{
+  margin: 45px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.project-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.all-works-button{
+  background-color: white;
+  color: rgb(100, 111, 135);
+  border: 1px solid   rgb(100, 111, 135);
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  height: 55px;
+  text-align: center;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+}
+.all-works-button:hover{
+ background-color: rgb(223, 226, 231);
+}
+
+.line-container2{
+  width: 70px;
+  height: 3px;
+  background-color: rgb(0, 167, 142);
+  border-radius: 2px;
+}
+
+.images-section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 30px;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 1.5rem;
+}
+.images-section h4{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(41, 54, 81,);
+}
+.images-section p{
+  color: rgb(100, 111, 135);
+  font-size: 18px;
+}
+
+.price-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 70px;
+  padding: 30px;
+  background-color: rgb(248, 248, 248);
+  padding-bottom: 90px;
+}
+.prices{
+  width: 320px;
+  height:530px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding: 30px;
+  font-size: 20px;
+  color: rgb(100, 111, 135);
+  border-radius: 4px;
+}
+.prices p{
+  color: rgb(100, 111, 135);
+}
+.choose-plan-button{
+  background-color: white;
+  color: rgb(100, 111, 135);
+  border: 1px solid   rgb(100, 111, 135);
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  height: 55px;
+  text-align: center;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 30px;
+}
+.choose-plan-button:hover{
+  background-color: rgb(223, 226, 231);
+}
+
+.choose-plan-button2{
+  background-color:  rgb(0, 167, 142);
+  color: white;
+  border: 1px solid   rgb(100, 111, 135);
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  height: 55px;
+  text-align: center;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 30px;
+}
+.choose-plan-button2:hover{
+  opacity: 0.5;
+}
+
+.price-section h3{
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(41, 54, 81);
+}
+.price-tag{
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(0, 167, 142);
+}
+.price-section p{
+  font-size: 17px;
+}
+
+.reviews{
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+.reviews h2{
+  font-size: 40px;
+  letter-spacing: 0.1rem;
+}
+
+.reviews .line-container{
+  margin-top: 30px;
+}
+
+.reviews-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: nowrap;
+}
+
+.rob-hope-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 1.5rem;
+}
+
+.rob-hope-section p{
+  color: rgb(100, 111, 135);
+  width: 250px;
+}
+
+
+.rob-hope-section h3{
+  color: #293651;;
+}
+.rob-hope-section img{
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.ratings{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: rgb(248, 248, 248);
+}
+
+#rating{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  width: 300px;
+}
+
+.ratings strong{
+  color: rgb(0, 167, 142);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+
+.ratings p{
+  color: rgb(100, 111, 135);
+  font-size: 18px;
+  font-weight: 650;
+}
+
+
+.work-experience{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  gap: 5rem;
+ 
+}
+.experience-description:hover{
+  background-color: rgb(0, 167, 142);
+}
+
+.work-experience .experience-description{
+  color: rgb(100, 111, 135);
+  width: 300px;
+  height: 250px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+.work-experience h3{
+  color: rgb(41, 54, 81);
+}
+
+.work-experience h4{
+  color: rgb(0, 167, 142);
+}
+
+.work-experience p{
+  color: rgb(100, 111, 135);
+  font-style: normal;
+  font-weight: 650;
+  letter-spacing: 0.03rem;
+  margin-top: 15px;
+}
+
+.project-section2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10%;
+  padding: 30px;
+  background-color: rgb(0, 167, 142);
+  color: white;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project-2 h3, div, p{
+  color: white;
+  width: 390px;
+  font-size: 20px;
+}
+.project-2 div{
+  width: 70px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+.project-2 h3{
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 0.05rem;
+}
+.hire-me-button2{
+  background-color: white;
+  color: rgb(0, 167, 142);
+  border: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.hire-me-button2:hover{
+  background-color: rgb(214, 238, 233);
+}
+
+.bio-content{
+  color: rgb(41, 54, 81);
+  letter-spacing: normal;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+footer{
+  background-color:#F8F8F8;
+  padding: 15%;
+  display: grid;
+  place-content: center;
+}
+
+footer h2{
+  text-align: center;
+  margin-bottom: 50px;
+}
+footer .email{
+  font-size: 30px;
+}
+footer section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+footer section:hover{
+  color:rgb(0, 167, 142);
+}
+
+footer nav{
+  font-size: 20px;
+  width: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  
+}
+footer ul{
+  gap: 1.7rem;
+  justify-content: center;
+}
+footer a:hover{
+  color: rgb(41, 54, 81);
+}
+  
+footer p{
+  color: rgb(100, 111, 135);
+  font-size: 18px;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+.uldeck{
+  color: rgb(0, 167, 142);
+  cursor: pointer;
+}
+.uldeck:hover{
+  color: #0156B3;
+}
+
+/* mobile phones */
+
+@media (min-width: 414px){
+  header{
+    flex-direction: column;
+    display: grid;
+    place-content: center;
+    width: 200px;
+    font-size: 10px;
+  }
+  header h2{
+    text-align: center;
+  }
+  header ul{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 0;
+    list-style: none;
+    place-content: center;
+  }
+  .bio-section p{
+    flex-direction: column;
+    text-align: center; 
+  }
+  .hire-button{
+    display: block;
+    margin-left: 60px;
+    height: 50px;
+    
+  }
+  .hello, .name, p{
+    text-align: center;
+    font-size: 25px;
+  }
+  .bio img{
+    width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+  .green-background{
+    width: 250px;
+    height: 500px;
+    background-color: rgb(248, 248, 248);
+  }
+
+ /* comeback to me */
+
+  .about-section{
+    flex-direction: column;
+    text-align: center;
+    text-align: left;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .about-me{
+    text-align: center;
+  }
+
+  .bio-content, h2{
+    width: 300px;
+    margin-left: 50px;
+  }
+
+  
+  .container h2{
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .ui-container, .skills{
+    width: 300px;
+    margin: 0 auto;
+    font-size: large;
+  }
+  
+  .html-container{
+    width: 300px;
+    margin: 0 auto;
+  }
+  .web-container{
+    width: 300px;
+    margin: 0 auto;
+  }
+  .sketch-container{
+    width: 300px;
+    margin: 0 auto;
+  }
+  .content{
+    width: 140px;
+    
+  }
+  .content p{
+    width: 110px;
+    font-size: 20px;
+  }
+
+  .project-section{
+  display: block;
+  padding: 10px;
+  text-align: center;
+  
+  }
+  
+  .images-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .images-of-latest-projects img, p{
+   width: 180px;
+  }
+
+  .price-section{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .reviews-section{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ratings{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .ratings p{
+   width: 50px;
+  }
+  #rating{
+    width: 150px;
+  }
+  #rating img{
+    width: 50px;
+    height: 50px;
+  }
+  #rating strong{
+    font-size:larger;
+  }
+  .reviews h2{
+    font-size: larger;
+    text-align: center;
+    margin-right: 0px;
+    width: 200px;
+  }
+
+  .experience-section{
+    flex-direction: column;
+    align-items: left;
+  }
+  .work-experience{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+  .experience-description{
+   line-height: 1.5rem; 
+   font-size: large;
+  }
+
+  .project-section2{
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    
+  }
+  .project-section2 p{
+   width: 300px;
+   text-align: center;
+   font-size: large;
+  }
+  .project-section2 h3{
+    font-size: larger;
+  }
+  
+  footer ul{
+    display: grid;
+    justify-content: flex-start;
+    padding: 20px;
+    font-size: small;
+  }
+  footer .email{
+    font-weight: 700;
+    font-size: larger;
+  }
+}
+
+/* mini tablets */
+
+@media (min-width: 768px){
+ header nav{
+  display: none;
+ }
+
+ .bio-section{
+  display: grid;
+ }
+ .bio-content{
+  width: 600px;
+  font-size: 20px;
+  margin-right: 80px;
+ }
+ .bio h1{
+  text-align: left;
+  margin-left: 15%;
+ }
+ .bio img{
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin-left: 70px;
+ }
+ .image{
+  width: 500px;
+  height: 500px;
+ }
+
+ .skills{
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 5px;
+ }
+ .about-me{
+  font-size: 30px;
+ }
+ .ui-container{
+  width: 600px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+ }
+ .web-container{
+  width: 600px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+ }
+ .html-container{
+  width: 600px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+ }
+ .sketch-container{
+  width: 600px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+ }
+
+ .services{
+  display: grid;
+  place-content: center;
+ }
+ .content{
+  width: 100%;  
+ }
+ .content h2{
+  width: 60%;
+  font-size: larger;   
+ }
+ .content p{
+  width: 100%;
+ }
+
+ .project-section{
+  display: flex;
+ }
+
+ .project{ 
+  display: grid;
+  text-align: left;
+  font-size: 20px;
+ }
+ 
+ .images-of-latest-projects img{
+  width: 100%;
+ }
+ 
+ .services{
+  font-size: 30px;
+  text-align: center;
+ }
+ .services h2{
+  margin-left: 20px;
+ }
+ .prices{
+  width: 70%;
+ }
+ .prices h3, strong, p{
+  font-size: 30px;
+ }
+ .prices p{
+  font-size: 20px;
+ }
+ .prices strong{
+  font-size: 30px;
+ }
+ .prices button{
+  display: block;
+ }
+
+ .reviews h3{
+  font-size: 30px;
+  letter-spacing: 0.2rem;
+  font-family: sans-serif;
+ }
+ .reviews h2{
+  text-align: center;
+  width: 85%;
+  letter-spacing: 0.3rem;
+  font-family: sans-serif;
+  font-size: 35px;
+ }
+ 
+ .rob-hope-section{
+  width: 100%;
+ }
+ .rob-hope-section P{
+  width: 100%;
+  font-size: 20px;
+ }
+ .rob-hope-section h3{
+  font-size: 25px;
+ }
+ .ratings{
+  width: 110%;
+  margin-left: 10px;
+ }
+
+ #rating img{
+  width: 80px;
+  height: 80px;
+ }
+ #rating strong{
+  font-size: 30px;
+ }
+ #rating p{
+  width: 200px;
+  font-size: 25px;
+ 
+ }
+ #rating{
+  gap: 1.5rem;
+ }
+
+ .work-experience{
+  display: flex;
+  flex-direction: row-reverse;
+ }
+
+ .project-section2{
+  width: 100%; 
+  display: flex;
+  justify-content: space-between;
+   
+ }
+ .project-2 {
+  width: 100%;
+  padding: 20px;
+  font-size: 30px;
+ }
+
+ footer h2{
+  text-align: center;
+  font-size: 30px;
+  margin-right: 40px;
+ }
+ footer .email{
+  width: 100%;
+  margin-left: 50px;
+  font-size: 50px;
+ }
+ footer ul{
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+
+ }
+}
