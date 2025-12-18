@@ -8,7 +8,6 @@ body{
   padding: 50px;
   background-color: white;
   min-height: 100vh;
-  
 }
 
 .lancer{
@@ -29,12 +28,6 @@ header{
 header h2{
   font-size: 25px;
 }
-
-
-main{
-  min-height: 500px;
-}
-
 
 li{
  list-style: none;
@@ -840,7 +833,7 @@ footer p{
   display: grid;
  }
  .bio-content{
-  width: 600px;
+  width: 80%;
   font-size: 20px;
   margin-right: 80px;
  }
@@ -850,13 +843,13 @@ footer p{
  }
  .bio img{
   width: 500px;
-  height: 500px;
+  height: auto;
   display: block;
   margin-left: 70px;
  }
  .image{
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: auto;
  }
 
  .skills{
@@ -1019,3 +1012,212 @@ footer p{
 
  }
 }
+
+/* large screens */
+
+@media (min-width: 992px){
+ header{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+ }
+ header h2{
+  width: 100%;
+    display: flex;
+    justify-content: left;
+ }
+ header nav{
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 30px;
+ }
+ header ul{
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .bio-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
+ .bio img{
+  width: 110%;
+  height: 600px;
+  margin-left: -10px;
+ }
+ .green-background{
+    width: 100%;
+    height: auto;
+  }
+ .bio-content{
+  width: 80%;
+  margin-left: 20px;
+  text-align: justify;
+ }
+
+ .about-section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+ }
+ .about{
+  width: 400px;
+ 
+ }
+ .ui-container{
+  width: 400px;
+ }
+ .web-container{
+  width: 400px;
+ }
+ .html-container{
+  width: 400px;
+ }
+ .sketch-container{
+  width: 400px;
+ }
+ .image{
+  height: 500px;
+  width: 350px;
+ }
+
+ .services{
+  font-size: 30px;
+  letter-spacing: 0.2rem;
+ }
+ .container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ }
+
+ .project-section{
+  display: flex;
+  justify-content: space-between;
+ }
+ .project-section h3{
+  margin-left: 50px;
+ }
+ .project-section div{
+   margin-left: 50px;
+ }
+
+ .images-section{
+   display: flex;
+ }
+ .price-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ }
+ .prices{
+  width: 100%;
+  height: auto;
+  font-size: 50px;
+ }
+
+ .experience-section{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+ 
+ 
+ }
+ .experience-description{
+  display: flex;
+   flex-direction: row-reverse;
+   font-size: 30px;
+   line-height: 2rem;
+ 
+ }
+
+ .project-section2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14rem;
+ }
+ .project-2{
+  width: 100%;
+   font-size: 30px;
+ }
+ .project-2 p{
+  font-size: 30px;
+  width: 400px;
+  text-align: justify;
+  line-height: 2rem;
+ }
+
+ footer{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  place-content: center;
+
+  padding: 10px;
+ }
+ footer h2{
+  margin: 0 auto;
+ 
+ }
+ footer section{
+  margin-top: 20px;
+ }
+ }
+ 
+/* larger screens */
+
+@media (min-width: 1200px){
+  header{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: sticky;
+  top: 0;
+  }
+  header h2{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+  }
+  header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+
+  .bio-section .bio-content{
+    display: flex;
+    justify-content: left;
+   text-align: left;
+  }
+  .bio img{
+   width: 70%;
+   
+  }
+  .green-background{
+    width: 70%;
+    margin-right: -300px;
+  }
+
+  .about{
+    width: 100%;
+  }
+  .image{
+    width: 100%;
+    height: 520px;
+  }
+  .about h2{
+    margin-left: 20px;
+  }
+  .about-me{
+     margin-left: -30px;
+  }
+
+  .rob-hope-section p{
+    text-align: justify;
+  }
+
+.hire-me-button2{
+  margin-right: 50px;
+  width: 50%;
+  font-size: 30px;
+}
+}
+
+
